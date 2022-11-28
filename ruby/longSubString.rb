@@ -1,5 +1,7 @@
 def length_of_longest_substring(s)
-    # type your code here
+    characters = s.each_char.tally
+
+    characters.count
 end
 
 
@@ -8,7 +10,9 @@ if __FILE__ == $PROGRAM_NAME
 puts "Expecting: 3"
 puts "=>", length_of_longest_substring("abcabcbb")
 
-# Don't forget to add your own!
+puts "Expecting: 2"
+puts "=>",  length_of_longest_substring("bbbccccccbbbbbbcccccccbbb")
+
 end
   
 # Please add your pseudocode to this file
