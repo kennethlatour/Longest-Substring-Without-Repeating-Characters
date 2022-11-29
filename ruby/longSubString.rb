@@ -1,7 +1,8 @@
 def length_of_longest_substring(s)
-    characters = s.each_char.tally
-
-    characters.count
+    characters = s.chars
+   
+    puts characters
+   
 end
 
 
