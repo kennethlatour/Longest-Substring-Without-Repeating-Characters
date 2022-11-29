@@ -1,8 +1,15 @@
 def length_of_longest_substring(s)
     characters = s.chars
-   
-    puts characters
-   
+    i = 0
+    newarray = ["a"]
+    
+  puts newarray.include? characters[i]
+  puts characters[i]
+        # newarray << characters[i]; i+=1
+        # puts newarray
+    #     break if newarray.include? characters[i] === true
+    # end
+    # newarray.length
 end
 
 
